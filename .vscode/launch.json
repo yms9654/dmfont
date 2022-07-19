@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "prepare_dataset",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "module": "scripts.prepare_dataset",
+            "args": ["kor", "data/fonts-hdf5", "meta/kor_split.json", "dump"]
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "mytest",
+                "checkpoints/korean-handwriting.pth",
+                "cfgs/kor.yaml",
+                "--mode",
+                "cv-save"
+            ]
+        }
+    ]
+}

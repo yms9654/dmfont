@@ -354,7 +354,7 @@ def eval_ckpt():
     parser.add_argument(
         "name", help="name is used for directory name of the user-study generation results"
     )
-    parser.add_argument("resume")
+    # parser.add_argument("resume")
     parser.add_argument("img_dir")
     parser.add_argument("config_paths", nargs="+")
     parser.add_argument("--show", action="store_true", default=False)
