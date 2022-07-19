@@ -11,7 +11,7 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "module": "scripts.prepare_dataset",
-            "args": ["kor", "data/fonts-hdf5", "meta/kor_split.json", "dump"]
+            "args": ["kor", "data/fonts", "meta/kor_test.json", "dump"]
         },
         {
             "name": "Python: Current File",
